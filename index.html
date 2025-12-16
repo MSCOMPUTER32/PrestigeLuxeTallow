@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRESTIGE | Luxe Tallow Elixir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+                "gsap": "https://unpkg.com/gsap@3.12.5/index.js",
+                "gsap/ScrollTrigger": "https://unpkg.com/gsap@3.12.5/ScrollTrigger.js"
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="canvas-container"></div>
+
+    <main id="content">
+        <!-- Section 1: Intro / Front Close Up -->
+        <section class="step" id="step-intro">
+            <div class="glass-panel">
+                <h1 class="brand-title">PRESTIGE</h1>
+                <p class="subtitle">Wake Up with Me</p>
+                <div class="scroll-indicator">
+                    <span>Scroll to Reveal</span>
+                    <div class="arrow">↓</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Product Reveal (Front) -->
+        <section class="step" id="step-reveal">
+            <div class="info-block right">
+                <h2>Luxe Tallow Elixir</h2>
+                <p>A nutrient-dense moisturizer that mimics your skin’s natural biology. Deeply hydration for a radiant,
+                    velvet finish.</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Rotation 1 (Right Side) -> USER: Ingredients -->
+        <section class="step" id="step-right">
+            <div class="info-block left">
+                <h2>Nature’s Liquid Gold</h2>
+                <p>Powered by 100% Grass-Fed Beef Tallow and healing Manuka Honey. Enriched with organic botanicals to
+                    feed your skin the vitamins it craves (A, D, E, & K).</p>
+            </div>
+        </section>
+
+        <!-- Section 4: Rotation 2 (Back Side) -> USER: Our Promise -->
+        <section class="step" id="step-back">
+            <div class="info-block right">
+                <h2>A Mother-Daughter Legacy</h2>
+                <p>Founded on transparency and love. We craft every jar in small, curated batches to ensure
+                    uncompromising purity and potency.</p>
+            </div>
+        </section>
+
+        <!-- Section 5: Rotation 3 (Left Side) -> USER: Directions -->
+        <section class="step" id="step-left">
+            <div class="info-block left">
+                <h2>The Morning Ritual</h2>
+                <p>Warm a pea-sized amount between your fingertips to awaken the elixir. Gently press into your face and
+                    neck to hydrate, protect, and glow.</p>
+                <p><i>Made in USA</i></p>
+            </div>
+        </section>
+
+        <!-- Section 6: Rotation 4 (Bottom) -> USER: Made with Love -->
+        <section class="step" id="step-bottom">
+            <div class="info-block bottom">
+                <h2>Handcrafted Devotion</h2>
+                <p>Skincare with a soul. Whipped with intention and poured with care, bringing you the highest quality
+                    from our hands to yours.</p>
+                <p><i>"Made with love."</i></p>
+            </div>
+        </section>
+
+        <!-- Section 7: Rotation 5 (Top) -> USER: Wake Up -->
+        <section class="step" id="step-top">
+            <div class="info-block bottom">
+                <h2>Awaken Your Radiance</h2>
+                <p>Elevate your daily routine into a moment of self-care. Because your skin deserves nothing less.</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- Spacer for scrolling -->
+        <div class="spacer"></div>
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
