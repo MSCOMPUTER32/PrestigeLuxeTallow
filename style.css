@@ -209,13 +209,13 @@ html {
 /* Mobile Optimization */
 @media (max-width: 768px) {
     .brand-title {
-        font-size: 3rem;
+        font-size: clamp(1.5rem, 8vw, 2.5rem);
         /* Smaller title */
     }
 
     .glass-panel {
-        padding: 2rem;
-        width: 90%;
+        padding: 2rem 0.5rem;
+        width: 95%;
     }
 
     /* Force all info blocks to bottom on mobile */
@@ -223,16 +223,16 @@ html {
     .info-block.right,
     .info-block.left,
     .info-block.bottom {
-        top: auto;
-        bottom: 10%;
-        left: 50%;
-        right: auto;
-        transform: translateX(-50%);
+        top: auto !important;
+        bottom: 10% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
         width: 90%;
-        max-width: none;
-        text-align: center;
-        border: none;
-        border-top: 1px solid var(--gold);
+        max-width: nonebox;
+        text-align: center !important;
+        border: none !important;
+        border-top: 1px solid var(--gold) !important;
         padding: 1.5rem;
     }
 

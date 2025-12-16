@@ -175,7 +175,7 @@ const tl = gsap.timeline({
 // 1. Reveal (Front)
 // t=0 to 2
 const isMobile = window.innerWidth < 768;
-const targetZ = isMobile ? 12.0 : 7.5; // significantly further back on mobile
+const targetZ = isMobile ? 18.5 : 7.5; // significantly further back on mobile
 
 tl.to('.glass-panel', { opacity: 0, duration: 0.5 }, 0);
 tl.to(camera.position, { z: targetZ, duration: 2, ease: "none" }, 0);
